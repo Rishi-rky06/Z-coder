@@ -52,3 +52,6 @@ GROQ_API_KEY=your_groq_api_key
 Frontend .env:
 
 VITE_API_URL=https://alfa-leetcode-api.onrender.com VITE_BACKEND_URL=http://localhost:3000
+
+a
+
