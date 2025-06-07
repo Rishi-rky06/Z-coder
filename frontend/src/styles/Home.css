@@ -1,0 +1,138 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-background);
+  color: var(--text-primary);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  background: rgba(37, 39, 55, 0.9); /* semi-transparent for depth */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary-accent);
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-accent);
+}
+
+.login-btn {
+  background: var(--primary-accent);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.login-btn:hover {
+  background: #009fca;
+}
+
+.main {
+  flex: 1;
+  padding: 3rem 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: var(--primary-accent);
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: var(--text-secondary);
+}
+
+.cta-btn {
+  background: var(--primary-accent);
+  color: white;
+  border: none;
+  padding: 0.85rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.cta-btn:hover {
+  background: #009fca;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.feature {
+  background: rgba(37, 39, 55, 0.85);
+  padding: 1.75rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  color: var(--primary-accent);
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.feature p {
+  margin-top: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem;
+  background: rgba(37, 39, 55, 0.9);
+  font-size: 0.95rem;
+  margin-top: auto;
+  color: var(--text-secondary);
+}

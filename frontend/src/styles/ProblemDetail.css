@@ -1,0 +1,134 @@
+/* Base styles */
+.app-container {
+  min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  background: linear-gradient(135deg, #8e8d8d, #b0afb0);
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-grid {
+  max-width: 100vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.panel {
+  max-height: 100vh;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(50, 50, 50, 0.08);
+  padding: 1.5rem;
+  min-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+/* Left panel styles */
+.problem-title {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.03em;
+}
+
+.difficulty-text {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.difficulty-easy {
+  color: #2ca02c; /* a fresh green */
+}
+
+.difficulty-medium {
+  color: #d58512; /* warm amber */
+}
+
+.difficulty-hard {
+  color: #b22222; /* darker red */
+}
+
+.question-content {
+  max-width: none;
+  color: #2c3e50;
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+}
+
+.sample-tests-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #5a4fcf;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sample-tests-box {
+  background-color: #0a0a0b;
+  padding: 1.1rem 1rem;
+  border-radius: 0.5rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  box-shadow: inset 0 0 8px #b0b8ff;
+}
+
+.tags-container {
+  margin-top: 1rem;
+  color: #555a66;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #a0a9ff, #5d66e0);
+  color: #e0e6ff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+  background: linear-gradient(135deg, #6a73ff, #3b42cc);
+  cursor: default;
+}
+
+/* Responsive styles */
+@media (min-width: 1024px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-red-600 {
+  color: #b22222;
+}
+
+.font-medium {
+  font-weight: 500;
+}

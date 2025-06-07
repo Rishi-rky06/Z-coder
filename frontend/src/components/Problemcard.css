@@ -1,0 +1,67 @@
+.problem-card {
+  border: 1px solid #3a3aa5;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+  background-color: #474788;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  color: #f1f1f1;
+}
+
+.problem-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 255, 195, 0.1);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.problem-id {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.problem-title {
+  flex-grow: 1;
+  color: #e0f7fa;
+}
+
+.locked-icon {
+  color: #ff3c77;
+}
+
+.card-info {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: #cbd5e1;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #2d3748;
+  padding: 4px 10px;
+  border-radius: 14px;
+  margin: 3px;
+  font-size: 0.78rem;
+  color: #a0aec0;
+  transition: background 0.2s;
+}
+
+.tag:hover {
+  background-color: #4a5568;
+  color: #ffffff;
+}
