@@ -13,7 +13,7 @@ TECH STACK
 =>APIs: Groq API, Alpha LeetCode API 
 =>Dev Tools:nodemon, dotenv
 
-**Getting Started Follow these instructions to run the project locally. Clone the Repository git clone https://github.com/Eshanthreddy130705/Z-coder.git cd Z-coder Run the Backend Go to the backend folder: cd backend Install dependencies: npm install Create a .env file in the backend folder at the same level as index.js: GROQ_API_KEY=your_api_key_here
+**Getting Started Follow these instructions to run the project locally. Clone the Repository git clone https://github.com/Rishi-rky06/Z-coder cd Z-coder Run the Backend Go to the backend folder: cd backend Install dependencies: npm install Create a .env file in the backend folder at the same level as index.js: GROQ_API_KEY=your_api_key_here
 
 **You can generate your own API key at: https://console.groq.com/keys
 
