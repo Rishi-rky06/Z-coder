@@ -49,6 +49,8 @@ Backend .env:
 
 GROQ_API_KEY=your_groq_api_key
 
+MONGODB_URI=mongodb+srv://gowthamdoma18:iDyDeNQo8rW2XZ7U@cluster0.ri540bo.mongodb.net/?retryWrites=true&w=majority
+
 Frontend .env:
 
 VITE_API_URL=https://alfa-leetcode-api.onrender.com VITE_BACKEND_URL=http://localhost:3000
